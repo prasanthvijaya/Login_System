@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    outline: none;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(13, 122, 211);
+}
+.container,.container-fluid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+    background-color: rgba(255, 255, 255, 0.959);
+    width: 410px;
+    padding: 30px;
+    border-radius: 5px;
+}
+.container form{
+    margin-top: -20px;
+}
+
+.container form .data label{
+border: none;
+
+}
+.container .textcl{
+    text-align: center;
+    color:  rgb(13, 122, 211);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+}
+ form .data label{
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid silver;
+ }
+ form .data input:focus {
+    border-color:  rgb(13, 122, 211);
+    border-bottom-width: 2px;
+ }
+ form .data .date{
+    width :180px
+ }
+ form .forgot{
+    margin-top:-8px ;
+ }
+form .forgot a{
+    color:  rgb(13, 122, 211);
+    text-decoration: none;
+}
+form .forgot a:hover{
+    text-decoration: underline;
+}
+form .btn{
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+}
+form .btn button{
+    height: 100%;
+    width: 100%;
+    background:  none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: rgb(13, 122, 211);
+}
+form .sigin_link{
+    text-align: center;
+}
+form .sigin_link a{
+    color:  rgb(13, 122, 211);;
+    text-decoration: none;
+}
+form .sigin_link a:hover{
+    text-decoration: underline;
+}
+.container-fluid{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid .info{
+    text-align: center;
+}
+
+
+
